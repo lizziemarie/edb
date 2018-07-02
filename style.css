@@ -12,5 +12,49 @@
 @import url("../rosemary/style.css");
 
 body {
-	background: red;
+	font-family: 'Montserrat', sans-serif;
+}
+#nav-wrapper .menu li a {
+	text-transform: lowercase;
+	font-size: 14px;
+}
+
+.post-header .cat a {
+	text-transform: lowercase;
+	font-size: 12px;
+}
+
+.feat-item .read-more, .widget-title {
+	text-transform: lowercase;
+	font-size: 14px;
+}
+
+.widget-title {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+
+#respond  h3 {
+	font-family: 'Montserrat', sans-serif;
+}
+#respond input {
+	font-family: 'Montserrat', sans-serif;
+}
+#respond textarea {
+	font-family: 'Montserrat', sans-serif;
+}
+.widget-title {
+	font-family: 'Montserrat', sans-serif;
+}
+.side-pop-content h4 a {
+	font-family: 'Montserrat', sans-serif;
+}
+.promo-overlay  h4 {
+	font-family: 'Montserrat', sans-serif;
+}
+.post-box-title {
+	font-family: 'Montserrat', sans-serif;
+}
+.item-related h3 a {
+	font-family: 'Montserrat', sans-serif;
 }
