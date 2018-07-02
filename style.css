@@ -1,0 +1,16 @@
+/*
+  Theme Name: Rosemary Child
+  Theme URI:
+  Description: Rosemary Theme Child - Rosemary
+  Author: Lizzie Willett
+  Author URI: https://bandanastudio.co/
+  Template: Rosemary
+  Version: 1.0.0
+  Text Domain: rosemary-Child
+*/
+
+@import url("../rosemary/style.css");
+
+body {
+	background: red;
+}
