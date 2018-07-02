@@ -20,29 +20,28 @@
    <div id="content">
 
      <div id="main" class="fullwidth">
-        <h6>Portfolio</h6>
+        <h1 class="portfolio-title">Portfolio</h1>
 
+      <ul class="portfolio-projects">
       <?php while ( have_posts() ) : the_post();
-          $featured_image = get_field('featured_image');
-          $size = 'medium';?>
+          $featured_image = get_field('featured_image');?>
 
-            <li class="case-study-images ">
+            <li class="individual-project ">
               <a href="<?php the_permalink(); ?>">
                 <figure>
                   <?php if($featured_image) {
                   echo wp_get_attachment_image( $featured_image, $size );
                   } ?>
-              </figure>
+                </figure>
               </a>
 
-              <h3><a href="<?php the_permalink(); ?>"> <?php the_title(); ?></a></h3>
-              
+              <h2><a href="<?php the_permalink(); ?>"> <?php the_title(); ?></a></h2>
+
             </li>
 
       <?php endwhile; // end of the loop. ?>
-
-
-          </div>
+      </ul>
+    </div>
 
 <?php
 get_footer(); ?>
