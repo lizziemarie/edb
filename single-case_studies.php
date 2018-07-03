@@ -28,6 +28,10 @@
 
       <?php endwhile; // end of the loop. ?>
 
+      <div class="buttons">
+          <span class="previous-button"><?php previous_post_link('%link', '<< previous'); ?></span>
+          <span class="next-button"><?php next_post_link( '%link', 'next >>'); ?></span>
+      </div>
     </div>
 
 <?php

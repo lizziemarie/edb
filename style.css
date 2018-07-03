@@ -94,6 +94,17 @@ li.individual-project h2 {
 		justify-self: center;
 }
 
+.buttons {
+	display: grid;
+	grid-template-columns: repeat(2,auto);
+}
+		.previous-button {
+			justify-self: start;
+		}
+		.next-button {
+			justify-self: end;
+		}
+
 @media screen and (min-width: 768px) {
 /*Tablet styles here!*/
 		ul.portfolio-projects {
@@ -123,4 +134,27 @@ h4.instagram-title {
 		h4.instagram-title {
 			font-size: 24px;
 		}
+}
+
+/*Wordpress Popular Posts ============================*/
+
+img.wpp-thumbnail {
+	width: 100px;
+	height: auto;
+	padding-right: 10px;
+}
+
+span.wpp-meta.post-stats {
+	margin-top: 8px;
+}
+span.wpp-date {
+	color: #999999;
+	font-size: 11px;
+	font-weight: 400;
+	font-style: italic;
+}
+
+ul.wpp-list li {
+	margin-bottom: 12px;
+	padding-bottom: 12px;
 }
